@@ -1,6 +1,7 @@
 # OPENMPI-MANDEL
 A simple C project that makes use of MPI to calculate the initial image of the Mandelbrot set.
 It constructs a PPM image (will need to find a PPM view to view it, something like http://openseeit.sourceforge.net/) of the first inital image of the Madelbrot set.
+It has two options one to make use of the SSE instruction set ontop of the openMPI implementation to speed up the inital work.
 
 It was apart of a larger set of work on the parallelization of the madelbrot set.
 
